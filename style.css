@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+li, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #727272;
+    text-decoration: none;
+}
+
+header {
+    border-top: 3px solid #7a5299;
+    border-bottom: 1px solid #cbcbcb;
+    margin: 10px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav_links li a:hover {
+    color: #7a5299;
+}
+
+@media only screen and (max-width: 780px) {
+    li, a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #727272;
+        text-decoration: none;
+    }
+    
+    .nav_links li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    .page_column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 550px;
+        margin: auto;
+    }
+
+    .column1 {
+        flex: 35%;
+        text-align: center;
+    }
+
+    .column2 {
+        flex: 65%;
+        border-left: 1px solid #cbcbcb;
+    }
+}
+
+@media only screen and (max-width: 1339px) {
+    .page_column {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .column1 {
+        flex: 35%;
+        text-align: center;
+    }
+
+    .column2 {
+        flex: 65%;
+        border-top: 1px solid #cbcbcb;
+    }
+
+    .title {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+main {
+    padding: 20px 50px 20px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #727272;
+}
+
+.title {
+    font-size: 35px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #727272;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    width: 270px;
+    height: 270px;
+    box-shadow: 0px 3px 5px #7e7e7e;
+}
+
+table {
+    border-spacing: 5px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.left_col {
+    text-align: left;
+}
+
+.right_col {
+    text-align: right;
+}
+
+progress {
+    width: 100%;
+    height: 30px;
+}
+
+.in_list li {
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 1px solid #cbcbcb;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
